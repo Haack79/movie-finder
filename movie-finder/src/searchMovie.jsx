@@ -1,5 +1,5 @@
 import React, {useState} from "react";
-
+import "./styles.css";
 const SearchMovie = () => {
     const [query, setQuery] = useState('')
     const [movies, setMovies] = useState([]); 
